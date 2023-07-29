@@ -1,0 +1,548 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .header_top_wrp {
+        max-width: calc(100% - 190px);
+    }
+    
+    .menu-area nav ul li a {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    
+    .menu-area {
+        margin-right: 15px;
+    }
+    
+    .header_right a {padding: 16px 25px;}
+    
+    .about-bg {
+        max-width: 590px;
+    }
+    
+    .about_count ul li h1 {
+        font-size: 45px;
+    }
+    
+    .about_count ul li span {
+        font-size: 19px;
+    }
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header_top_wrp {
+        max-width: calc(100% - 190px);
+    }
+    
+    .menu-area nav ul li a {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    
+    .menu-area {
+        margin-right: 15px;
+    }
+    
+    .header_right a {padding: 14px 22px;font-size: 15px;}
+    
+    .about-bg {
+        max-width: 500px;
+    }
+    
+    .about_count ul li h1 {
+        font-size: 32px;
+    }
+    
+    .about_count ul li span {
+        font-size: 14px;
+        width: 60px;
+    }
+    .hero_title h1 {
+        font-size: 60px;
+    }
+    
+    .hero_title h3 {
+        font-size: 24px;
+    }
+    
+    .age_input_blk label {
+        font-size: 16px;
+    }
+    
+    .tt-2 ul {
+        gap: 15px;
+    }
+    
+    .booking_wrp {
+        padding: 30px;
+    }
+    
+    .blog_blk h5 {
+        font-size: 16px;
+    }
+    
+    .blog_blk h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo-area {
+        transform: unset;
+        scale: .8;
+    }
+    
+    .header_right {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 10px;
+    }
+    .header_right > a {padding: 14px 22px;font-size: 15px;margin-right: 10px;}
+    
+    .about-bg {
+    display: none;
+    }
+    
+    .about_count ul li h1 {
+        font-size: 32px;
+    }
+    
+    .about_count ul li span {
+        font-size: 14px;
+        width: 60px;
+    }
+    .hero_title h1 {
+        font-size: 45px;
+    }
+    
+    .hero_title h3 {
+        font-size: 24px;
+    }
+    
+    .age_input_blk label {
+        font-size: 16px;
+    }
+    
+    .tt-2 ul {
+        gap: 15px;
+        justify-content: space-between;
+    }
+    
+    .booking_wrp {
+        padding: 30px;
+    }
+    
+    .blog_blk h5 {
+        font-size: 16px;
+    }
+    
+    .blog_blk h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .hero_title {
+        text-align: center;
+    }
+    
+    .Ticket-Type {
+        flex-direction: column;
+    }
+    
+    .tt-1 ul {
+        display: flex;
+        gap: 20px;
+        margin: 15px 0;
+    }
+    
+    .select_box, .calander_box {
+        height: 48px;
+    }
+    
+    .booking_content ul li {
+        flex: 0 0 48%;
+    }
+    
+    .booking_content > ul {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .tt-3 {
+        text-align: right;
+        float: right;
+        width: max-content;
+        margin-left: auto;
+        margin-top: 25px;
+    }
+    
+    .age_input_blk input {}
+    
+    .about-area .container {
+        max-width: 500px;
+    }
+    
+    .about-area .container .row {
+        flex-direction: column-reverse;
+    }
+    
+    .about-img {
+        margin-bottom: 21px;
+    }
+    
+    .feature_wrp {
+        margin: auto;
+        max-width: 580px;
+    }
+    
+    .feature-Area {
+        height: auto;
+        padding: 100px 0;
+    }
+    
+    h1 {
+        font-size: 32px;
+    }
+    
+    h3 {
+        font-size: 22px;
+    }
+    
+    .blog_blk {}
+    
+    .footer_content {
+        margin: auto;
+        text-align: center;
+        max-width: 500px;
+    }
+    
+    .footer_content ul {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    
+    .footer_content p {
+        margin-bottom: 30px;
+    }
+    
+    .f_info {
+        padding: 0 50px 30px;
+        justify-content: center;
+    }
+    
+    .footer_link {
+        padding: 0 50px;
+    }
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .header-area {
+        padding: 10px 0;
+    }
+
+    .f_info_blk {
+        margin-bottom: 20px;
+    }
+    
+    .f_info_blk img {
+        width: 30px;
+    }
+    
+    .f_info_blk h4 {
+        font-size: 18px;
+    }
+    
+    .f_info_blk p {
+        font-size: 14px;
+    }
+    
+    .footer_content ul li a {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+    
+    .hero-area {
+        padding-top: 70px;
+    }
+    
+    .bar a {
+        width: 30px;
+    }
+
+    .logo-area {
+        transform: unset;
+    }
+
+.logo-area img {
+    max-width: 140px;
+}
+    
+    .header_right {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 10px;
+    }
+    .header_right > a {padding: 12px 20px;font-size: 14px;margin-right: 0px;}
+    
+    .about-bg {
+    display: none;
+    }
+    
+    .about_count ul li h1 {
+        font-size: 32px;
+    }
+    
+    .about_count ul li span {
+        font-size: 14px;
+        width: 60px;
+    }
+    .hero_title h1 {
+        font-size: 30px;
+    }
+    
+    .hero_title h3 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    
+    .age_input_blk label {
+        font-size: 16px;
+    }
+    
+    .tt-2 ul {
+        gap: 15px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+
+.tt-2 ul li {
+    flex: 0 0 45%;
+}
+    
+    .booking_wrp {
+        padding: 30px;
+    }
+    
+    .blog_blk h5 {
+        font-size: 16px;
+    }
+    
+    .blog_blk h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .hero_title {
+        text-align: center;
+        margin-bottom: 90px;
+    }
+    
+    .Ticket-Type {
+        flex-direction: column;
+    }
+    
+    .tt-1 ul {
+        gap: 20px;
+        margin: 15px 0;
+    }
+    
+    .select_box, .calander_box {
+        height: 48px;
+    }
+
+.booking_wrp h2 {
+    font-size: 24px;
+    text-align: center;
+}
+    
+    .booking_content ul li {
+        flex: 0 0 100%;
+    }
+    
+    .booking_content > ul {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .tt-3 {
+        text-align: right;
+        float: right;
+        width: max-content;
+        margin-left: auto;
+        margin-top: 25px;
+    }
+    
+    .about-area .container {
+        max-width: 380px;
+    }
+    
+    .about-area .container .row {
+        flex-direction: column-reverse;
+    }
+    
+    .about-img {
+        margin-bottom: 21px;
+    }
+    
+    .feature_wrp {
+        margin: auto;
+        max-width: 580px;
+    }
+    
+    .feature-Area {
+        height: auto;
+        padding: 100px 0;
+    }
+    
+    h1 {
+        font-size: 32px;
+    }
+    
+    h3 {
+        font-size: 22px;
+    }
+    
+    .footer_content {
+        margin: auto;
+        text-align: center;
+        max-width: 500px;
+    }
+    
+    .footer_content ul {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    
+    .footer_content p {
+        margin-bottom: 30px;
+    }
+    
+    .f_info {
+        padding: 0;
+        flex-direction: column;
+        padding-bottom: 5px;
+    }
+    
+    .footer_link {
+        padding: 0 0px;
+        flex-wrap: wrap;
+    }
+
+.footer_link ul li a {
+    font-size: 15px;
+}
+
+.footer_link h4 {
+    font-size: 20px;
+}
+
+.footer_link ul {
+    width: 150px;
+    margin-bottom: 30px;
+}
+.sec-title h1 {
+    font-size: 24px;
+}
+
+.sec-title span {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.about_text p {
+    font-size: 15px;
+}
+
+.feature_top {
+    flex-direction: column;
+}
+
+.feature_top h1 {
+    font-size: 26px;
+}
+
+.feature_top i {
+    margin-bottom: 15px;
+}
+
+.f_text {
+    flex-direction: column;
+}
+
+.f_text h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.svc_wrp ul li span {
+    font-size: 18px;
+}
+
+.svc_wrp ul li {
+    flex: 0 0 45%;
+}
+
+.service-Area {
+    background-size: cover;
+}
+
+.Registration_wrp {
+    flex-direction: column;
+    text-align: center;
+    max-width: 380px;
+    padding: 0 20px;
+}
+
+.Regi_text {
+    margin-bottom: 20px;
+}
+
+.Regi_right {
+    flex-direction: column;
+}
+
+.Regi_right input {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+.Regi_right a {
+    scale: .8;
+}
+
+.place_wrp h4 {
+    font-size: 18px;
+}
+
+.place_wrp {
+    padding: 40px;
+}
+
+.place-area {
+    padding: 80px 0;
+}
+
+.blog_blk {
+    margin-bottom: 40px;
+}
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
